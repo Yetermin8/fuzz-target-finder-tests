@@ -1,0 +1,22 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-std=c++17",
+      "-I/usr/local/include",
+      "-I/usr/include/boost",
+      "-I/usr/include/curl",
+      "-I/usr/include/x86_64-linux-gnu/qt5",
+      "-I/usr/include/x86_64-linux-gnu/qt5/QtNetwork",
+      "-I/usr/include/cpprest",
+      "-fPIC",
+      "-c",
+      "-o",
+      "test_cpp_standard.o",
+      "test_cpp_standard.cpp"
+    ],
+    "directory": "/home/tytizale/clang-ast-analyzer/tests/library_tests/cpp",
+    "file": "/home/tytizale/clang-ast-analyzer/tests/library_tests/cpp/test_cpp_standard.cpp",
+    "output": "/home/tytizale/clang-ast-analyzer/tests/library_tests/cpp/test_cpp_standard.o"
+  }
+]

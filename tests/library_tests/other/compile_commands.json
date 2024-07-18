@@ -1,0 +1,21 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-I/usr/local/include",
+      "-I/usr/include/boost",
+      "-I/usr/include/curl",
+      "-I/usr/include/x86_64-linux-gnu/qt5",
+      "-I/usr/include/x86_64-linux-gnu/qt5/QtNetwork",
+      "-I/usr/include/cpprest",
+      "-fPIC",
+      "-c",
+      "-o",
+      "test_other_libraries.o",
+      "test_other_libraries.cpp"
+    ],
+    "directory": "/home/tytizale/clang-ast-analyzer/tests/library_tests/other",
+    "file": "/home/tytizale/clang-ast-analyzer/tests/library_tests/other/test_other_libraries.cpp",
+    "output": "/home/tytizale/clang-ast-analyzer/tests/library_tests/other/test_other_libraries.o"
+  }
+]
