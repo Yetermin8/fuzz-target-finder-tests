@@ -8,10 +8,11 @@
 #include <sstream>
 
 void testBoostLibrary() {
+    char buffer[100]; // Declaring buffer here so it is accessible to all code below
+
     // boost::filesystem::ifstream::read, getline, readsome
     boost::filesystem::ifstream ifs("test.txt");
     if (ifs.is_open()) {
-        char buffer[100];
         ifs.read(buffer, 100);
         ifs.getline(buffer, 100);
         ifs.readsome(buffer, 100);
