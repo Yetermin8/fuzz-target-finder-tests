@@ -5,6 +5,7 @@
 #include <unistd.h>
 #include <sys/uio.h>
 #include <sys/socket.h> 
+#include <stack>
 #include <cstdio>
 #include <boost/asio.hpp>
 #include <boost/process.hpp>
